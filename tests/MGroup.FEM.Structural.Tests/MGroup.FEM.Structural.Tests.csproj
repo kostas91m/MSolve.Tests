@@ -31,7 +31,9 @@
     <None Remove="MGroup.Solvers" />
   </ItemGroup>
   <ItemGroup>
-	<Folder Include="ExampleModels\" />
     <Folder Include="Commons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Contact\src\MGroup.Contact.Structural\MGroup.Contact.Structural.csproj" />
   </ItemGroup>
 </Project>
